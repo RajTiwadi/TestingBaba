@@ -1,0 +1,96 @@
+
+<suite name="TestingBaba">
+    <test name="LoginTest" enabled="false">
+		<parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+    
+    <test name="TextBoxtest" enabled="false">
+        <classes>
+            <class name="tests.TextBoxtest"/>
+        </classes>
+    </test>
+
+    <test name="CheckBoxtest" enabled="false">
+        <classes>
+            <class name="tests.CheckBoxtest"/>
+        </classes>
+    </test>
+
+    <test name="RadioButtonTest" enabled="false">
+        <classes>
+            <class name="tests.RadioButtonTest"/>
+        </classes>
+        </test>
+        
+    <test name="WebTablePage" enabled="false">
+        <classes>
+            <class name="tests.WebTablesTest"/>
+        </classes>      
+    </test>
+    <test name="ButtonPage" enabled="true">
+		<parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.ButtonsTest"/>
+        </classes>      
+    </test>
+    
+     <test name="LinksPages" enabled="false">
+		 <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.LinkTest"/>
+        </classes>      
+    </test>  
+    
+    <test name="AlertPage" enabled="false">
+		<parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.AlertTest"/>
+        </classes>      
+    </test>  
+    
+     <test name="BrowserWindow" enabled="false">
+		  <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.BrowseWindowTest"/>
+        </classes>      
+    </test>  
+    
+    <test name="Frames" enabled="false">
+		  <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.FrameTest"/>
+        </classes>      
+    </test>  
+    
+    <test name="NestedFrames" enabled="false"> //done
+		  <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.NestedTest"/>
+        </classes>      
+    </test>  
+    
+     <test name="ToolTipspage" enabled="false">//done
+		 <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.ToolTipTest"/>
+        </classes>      
+    </test>  
+    
+    
+     <test name="SelectMenupage" enabled="false"> //done
+		 <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.SelectMenuTest"/>
+        </classes>      
+    </test> 
+    
+    <test name="UploadAndDownload" enabled="false"> //done
+		 <parameter name="browser" value= "chrome" ></parameter>
+        <classes>
+            <class name="tests.UploadDownload"/>
+        </classes>      
+    </test> 
+</suite>
